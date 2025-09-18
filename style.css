@@ -2,3 +2,8 @@ a{
   text-decoration: none;  
   color: crimson;
 }
+img{
+    box-shadow:width: 300px;
+	box-shadow: 5px 5px 8px blue;
+
+}
