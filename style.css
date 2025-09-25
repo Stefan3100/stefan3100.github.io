@@ -1,7 +1,9 @@
 body {
   background-color:ivory;
 }
-
+p {
+  text-decoration-color: aliceblue;
+}
 .obsah {
 
   background-color: red;
