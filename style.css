@@ -40,8 +40,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
-    font-size: 24px;
+    padding: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -63,8 +63,23 @@ img {
 
 #navbar ul li a:hover {
     color: rgb(204, 20, 20);
+    background-color: none;
     border-radius: 5px;
 }
 .text-primary{
   color:rgb(204, 20, 20) ;
+}
+@media(max-width:500px) {
+    body {
+        background-color: white;
+    }
+    #navbar{
+      background-color:rgb(204, 20, 20)
+    }
+    #navbar ul li a:hover {
+      color:black
+    }
+    .text-primary{
+      color: black
+    }
 }
