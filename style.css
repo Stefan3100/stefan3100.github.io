@@ -32,7 +32,10 @@ img {
  ul {
   display: flex;
   height: 300px;
- }
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
 #navbar {
     background-color: #333;
     border-radius: 20px;
