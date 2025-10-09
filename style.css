@@ -63,7 +63,6 @@ img {
 
 #navbar ul li a:hover {
     color: rgb(204, 20, 20);
-    background-color: none;
     border-radius: 5px;
 }
 .text-primary{
