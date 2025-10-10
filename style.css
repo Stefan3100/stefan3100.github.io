@@ -1,5 +1,5 @@
 body {
-  background-color:ivory;
+  background-color:rgb(203, 203, 194);
 }
 p {
   color: aliceblue;
@@ -46,6 +46,7 @@ img {
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
+    
 }
 
 #navbar a {
@@ -71,6 +72,22 @@ img {
 .text-primary{
   color:rgb(204, 20, 20) ;
 }
+#main{
+   background-color: #333;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+#vlajka{
+  font-size: 80px;
+  color: #333;
+}
 @media(max-width:500px) {
     body {
         background-color: white;
@@ -83,5 +100,13 @@ img {
     }
     .text-primary{
       color: black
+    }
+    #main{
+      font-size: 0rem;
+      display: none;
+    }
+    #vlajka{
+      display: block;
+      color: red;
     }
 }
