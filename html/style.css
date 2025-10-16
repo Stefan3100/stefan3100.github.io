@@ -1,0 +1,112 @@
+body {
+  background-color:rgb(203, 203, 194);
+}
+p {
+  color: aliceblue;
+  margin: 0px 0px 0px 30px;
+}
+a {
+  color: white;
+   margin: 5px 0px 0px 50px;
+}
+h1{
+  color: honeydew;
+  margin: 0px 0px 0px 150px;
+}
+img {
+  width: 90%;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 1)
+  0px 5px 15px;
+  margin: 20px 20px 
+}
+.obsah {
+
+  background-color: red;
+  max-width: 800px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 1)
+  0px 5px 15px;
+  margin: 90px auto 90px auto;
+}
+ ul {
+  display: flex;
+  height: 300px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+#navbar {
+    background-color: #333;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    color: rgb(204, 20, 20);
+    border-radius: 5px;
+}
+.text-primary{
+  color:rgb(204, 20, 20) ;
+}
+#main{
+   background-color: #333;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+#vlajka{
+  font-size: 80px;
+  color: #333;
+}
+@media(max-width:500px) {
+    body {
+        background-color: white;
+    }
+    #navbar{
+      background-color:rgb(204, 20, 20)
+    }
+    #navbar ul li a:hover {
+      color:black
+    }
+    .text-primary{
+      color: black
+    }
+    #main{
+      font-size: 0rem;
+      display: none;
+    }
+    #vlajka{
+      display: block;
+      color: red;
+    }
+}
