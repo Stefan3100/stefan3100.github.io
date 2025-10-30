@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+        <a href="index.html">Normalní vyhledávání </a>
+        </nav>
+        <p>Google Pokročilé</p><br>
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+  <label for="query">Hledaný výraz:</label>
+  <input type="text" id="query" name="q" placeholder="Např. klimatické změny">
+
+  <!-- Slova, která se musí objevit -->
+  <label for="all">Všechna tato slova:</label>
+  <input type="text" id="all" name="as_q">
+
+  <!-- Přesná fráze -->
+  <label for="exact">Přesná fráze:</label>
+  <input type="text" id="exact" name="as_epq">
+
+  <!-- Alespoň jedno ze slov -->
+  <label for="any">Alespoň jedno ze slov:</label>
+  <input type="text" id="any" name="as_oq">
+
+  <!-- Slova, která se nesmí objevit -->
+  <label for="none">Bez těchto slov:</label>
+  <input type="text" id="none" name="as_eq">
+
+  <!-- Webová stránka nebo doména -->
+  <label for="site">Web nebo doména:</label>
+  <input type="text" id="site" name="as_sitesearch" placeholder="např. wikipedia.org">
+
+  <!-- Jazyk -->
+  <label for="lang">Jazyk:</label>
+  <select id="lang" name="lr">
+    <option value="">Jakýkoli</option>
+    <option value="lang_cs">Čeština</option>
+    <option value="lang_en">Angličtina</option>
+    <option value="lang_de">Němčina</option>
+    <!-- Přidej další jazyky podle potřeby -->
+  </select>
+  <button type="submit">Pokročilé vyhledávání</button>
+</form>
+        <footer>
+    <p>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstefan3100.github.io%2F">
+            <img style="border:0;width:88px;height:31px" 
+            src="https://www.w3.org/Icons/valid-html401.png"
+            alt="Ověřit HTML!" />
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Ověřit CSS!" />
+        </a>
+    </p>
+    </footer>
+    </body>
+</html>

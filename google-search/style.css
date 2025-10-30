@@ -1,0 +1,41 @@
+body{
+    flex-direction: column;
+    background-color: rgb(67, 67, 67);
+}
+
+.odkaz1 a{
+    display: flex;
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.odkaz2 a{
+    display: flex;
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0px 0px 100px;
+    
+}
+form{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+.navbar a{
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
