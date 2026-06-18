@@ -1,43 +1,109 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-}
-#navbar{
-    display: flex
-;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: -10px -20px -10px -10px;
-    height: 100vh;
-    
-}
-.nadpis{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5rem;
-    display: flex;
-    color: azure;
-    
+    background-color:#ffffff;
+    color:#333;
+    line-height:1.6;
+}
+
+#navbar{
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.nadpis{
+    display:block;
+    background:#666;
+    color:white;
+    text-align:center;
+    font-size:2rem;
+    font-weight:bold;
+    padding:25px;
+}
+
+
+#text{
+    padding:30px;
+}
+
+#text h1{
+    color:#444;
+    margin-top:25px;
+    margin-bottom:10px;
+    border-bottom:2px solid #ddd;
+    padding-bottom:5px;
+}
+
+#text p{
+    margin-bottom:15px;
+}
+
+
+.odkaz{
+    list-style:none;
+    margin-top:15px;
+}
+
+.odkaz li{
+    margin-bottom:10px;
 }
 
 .odkaz a{
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: azure;
+    display:block;
+    text-decoration:none;
+    color:#333;
+    background:#f5f5f5;
+    border:1px solid #ddd;
+    padding:12px;
+    border-radius:6px;
+    transition:0.3s;
 }
-#text{
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    color: azure;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: azure;
 
+.odkaz a:hover{
+    background:#e0e0e0;
+    transform:translateX(5px);
 }
-#text p{
-    display: flex;
-    justify-content: center;
+
+
+footer{
+    text-align:center;
+    margin:20px 0;
+}
+
+footer p{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+footer img:hover{
+    opacity:0.8;
+}
+
+@media (max-width:768px){
+
+    #navbar{
+        margin:10px;
+    }
+
+    .nadpis{
+        font-size:1.6rem;
+        padding:20px;
+    }
+
+    #text{
+        padding:20px;
+    }
 }
